@@ -16,4 +16,13 @@ http://pneskin2.nekoget.com/codeigniter/3/user_guide/general/requirements.html
 ここ大事w
 
 ## インストール方法
-※準備中
+### configファイルの変更
+以下のファイル名を変更してください。
+
+application/config/config.php_org -> config.php
+application/config/database.php_org -> database.php
+
+こちらのドキュメントに沿ってインストール
+http://codeigniter.jp/user_guide/3/installation/index.html
+
+※以降準備中
