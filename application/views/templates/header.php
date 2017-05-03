@@ -11,7 +11,7 @@
     <title>CodeIgniter Tutorial</title>
 
     <!-- Bootstrap -->
-    <link href="<?= base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,11 +22,8 @@
 
     <!-- Bootstrap codes continue to footer.php  -->
   </head>
-  <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <h1><?php echo $title; ?></h1>
-        </div>
-      </div>
+  <body style="padding-top: 2rem;">
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+      <a class="navbar-brand" href="#">Press Release by Codeigniter</a>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault"></div>
     </nav>
