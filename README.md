@@ -11,8 +11,11 @@ Codeigniterチュートリアルをベースにした簡単なプレスリリー
 
 ## 動作環境
 1. Codeignaiterが動作すること
+
 http://pneskin2.nekoget.com/codeigniter/3/user_guide/general/requirements.html
+
 2. ロリポップ ライトプラン以上
+
 ここ大事w
 
 ## インストール方法
